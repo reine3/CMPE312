@@ -1,0 +1,17 @@
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\bin\Debug\flamingoCarList.exe.config
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\bin\Debug\flamingoCarList.exe
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\bin\Debug\flamingoCarList.pdb
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\flamingoCarList.csproj.AssemblyReference.cache
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\carListWindow.g.cs
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\MainWindow.g.cs
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\App.g.cs
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\flamingoCarList_MarkupCompile.cache
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\flamingoCarList_MarkupCompile.lref
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\carListWindow.baml
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\MainWindow.baml
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\flamingoCarList.g.resources
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\flamingoCarList.Properties.Resources.resources
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\flamingoCarList.csproj.GenerateResource.cache
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\flamingoCarList.csproj.CoreCompileInputs.cache
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\flamingoCarList.exe
+C:\Users\brylb\source\repos\flamingoCarList\flamingoCarList\obj\Debug\flamingoCarList.pdb

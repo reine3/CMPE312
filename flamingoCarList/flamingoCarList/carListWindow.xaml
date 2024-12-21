@@ -1,0 +1,40 @@
+﻿<Window x:Class="flamingoCarList.carListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:flamingoCarList"
+        mc:Ignorable="d"
+        Title="carListWindow" Height="450" Width="800">
+    <Grid Background="#FFB1ADAD" Margin="0,0,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="177*"/>
+            <RowDefinition Height="263*"/>
+        </Grid.RowDefinitions>
+        <Image Name="ClickableImage" Source="Images/edit.png" Width="60" Height="60" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,5" MouseLeftButtonDown="ClickableImage_MouseLeftButtonDown" Grid.Row="1"/>
+        <Image Name="carListHeader" Source="Images/carListHeader.jpg" Stretch="UniformToFill" VerticalAlignment="Top" Height="95"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="FLAMINGO RENT CAR LIST" VerticalAlignment="Top" Height="88" Width="300" Foreground="White" FontFamily="Algerian" FontSize="36"/>
+        <Image Name="goBackIcon" Source="Images/go_back.png" Width="45" Height="45" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,10" RenderTransformOrigin="0.508,-0.207" Grid.Row="1"/>
+        <ListBox Name="CarListBox" Margin="32,110,40,70" BorderBrush="#FFFC1A1A" Background="{x:Null}" Grid.RowSpan="2" SelectionChanged="CarListBox_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding CarImage, TargetNullValue='pack://application:,,,/Images/placeholder.jpg'}" 
+                       Width="210" Height="100" Stretch="UniformToFill" Grid.Column="0" Margin="10" />
+                        <StackPanel Orientation="Vertical" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Stretch">
+                            <TextBlock Text="{Binding Brand}" FontWeight="Bold" FontSize="16" HorizontalAlignment="Stretch" />
+                            <TextBlock Text="{Binding Model}" FontSize="14" HorizontalAlignment="Stretch" />
+                            <TextBlock Text="{Binding Year}" FontSize="14" HorizontalAlignment="Stretch" />
+                            <TextBlock Text="{Binding Price, StringFormat='Price: {0:C}'}" FontSize="14" HorizontalAlignment="Stretch" />
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+    </Grid>
+</Window>

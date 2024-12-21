@@ -1,0 +1,12 @@
+﻿<Window x:Class="flamingoCarList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:flamingoCarList"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFB1ADAD">
+        <Image Name="ClickableImage" Source="Images/edit.png" Margin="723,353,10,5" MouseLeftButtonDown="ClickableImage_MouseLeftButtonDown"/>
+    </Grid>
+</Window>
