@@ -1,0 +1,24 @@
+﻿<Window x:Class="ProfileSection.Giriş"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProfileSection"
+        mc:Ignorable="d"
+        Title="Giriş" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Rectangle HorizontalAlignment="Left" Height="307" Margin="481,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="269" Grid.Row="1"/>
+        <Button Content="Sign in" HorizontalAlignment="Left" Margin="526,280,0,0" VerticalAlignment="Top" Height="55" Width="179" Click="Button_Click" Background="#FFBC4040" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="526,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179" Height="39" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="526,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="179" Height="40" Grid.Row="1"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Margin="526,81,0,0" VerticalAlignment="Top" Grid.Row="1" Height="26" Width="69"/>
+        <Label Content="Pasword" HorizontalAlignment="Left" Margin="526,166,0,0" VerticalAlignment="Top" Grid.Row="1" Height="26" Width="54"/>
+        <Image Margin="40,58,393,23" Source="/Flamingo.jpeg" Grid.Row="1" />
+        <Label Content="WELCOME TO FLAMINGO RENTAL APP" HorizontalAlignment="Left" FontSize="33"  FontWeight="DemiBold" Margin="25,5,0,0" VerticalAlignment="Top" Foreground="#FFBC4040" Grid.RowSpan="2" Height="54" Width="592"/>
+        <Image Margin="37,81,367,46" Source="/Flamingo.jpeg" Stretch="Fill" Grid.RowSpan="2"/>
+    </Grid>
+</Window>

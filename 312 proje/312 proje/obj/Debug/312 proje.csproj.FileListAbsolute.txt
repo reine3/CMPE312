@@ -1,0 +1,7 @@
+C:\Users\pelin\source\repos\312 proje\312 proje\obj\Debug\312 proje.csproj.AssemblyReference.cache
+C:\Users\pelin\source\repos\312 proje\312 proje\obj\Debug\MainWindow.g.cs
+C:\Users\pelin\source\repos\312 proje\312 proje\obj\Debug\App.g.cs
+C:\Users\pelin\source\repos\312 proje\312 proje\obj\Debug\312 proje_MarkupCompile.cache
+C:\Users\pelin\source\repos\312 proje\312 proje\obj\Debug\312 proje_MarkupCompile.lref
+C:\Users\pelin\source\repos\312 proje\312 proje\obj\Debug\Kullanıcıyonlendirme.baml
+C:\Users\pelin\source\repos\312 proje\312 proje\obj\Debug\Kullanıcıyonlendirme.g.cs
