@@ -1,0 +1,16 @@
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\bin\Debug\Cmpe312TermProject.exe.config
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\bin\Debug\Cmpe312TermProject.exe
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\bin\Debug\Cmpe312TermProject.pdb
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\Cmpe312TermProject.csproj.AssemblyReference.cache
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\Cmpe312TermProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\MainWindow.g.cs
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\App.g.cs
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\Cmpe312TermProject_MarkupCompile.cache
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\Cmpe312TermProject_MarkupCompile.lref
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\MainWindow.baml
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\Cmpe312TermProject.g.resources
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\Cmpe312TermProject.Properties.Resources.resources
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\Cmpe312TermProject.csproj.GenerateResource.cache
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\Cmpe312TermProject.csproj.CoreCompileInputs.cache
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\Cmpe312TermProject.exe
+C:\Users\mbayh\source\repos\Cmpe312\Cmpe312TermProject\Cmpe312TermProject\obj\Debug\Cmpe312TermProject.pdb

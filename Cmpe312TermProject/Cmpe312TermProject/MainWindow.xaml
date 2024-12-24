@@ -1,0 +1,95 @@
+﻿<Window x:Class="Cmpe312TermProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cmpe312TermProject"
+        mc:Ignorable="d"
+        Title="Car Selection" Height="875" Width="800">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <!-- Marka ComboBox -->
+        <Label Content="Brand:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <ComboBox x:Name="brandBox" Grid.Row="0" Grid.Column="1" Margin="5" SelectionChanged="ComboBox_SelectionChanged" />
+
+        <!-- Model ComboBox -->
+        <Label Content="Model:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <ComboBox x:Name="modelBox" Grid.Row="1" Grid.Column="1" Margin="5" />
+
+        <!-- Yıl TextBox -->
+        <Label Content="Year:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <TextBox x:Name="yearBox" TextWrapping="Wrap" Margin="5" Grid.Row="2" Grid.Column="1" TextChanged="yearBox_TextChanged"/>
+
+        <!-- KM TextBox -->
+        <Label Content="KM:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <TextBox x:Name="kmBox" TextWrapping="Wrap" Margin="5" Grid.Row="3" Grid.Column="1" TextChanged="kmBox_TextChanged"/>
+
+        <!-- Lokasyon ComboBox -->
+        <Label Content="Location:" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <ComboBox x:Name="locationBox" Grid.Row="4" Grid.Column="1" Margin="5" SelectionChanged="locationBox_SelectionChanged" />
+
+        <!-- Yakıt Tipi ComboBox -->
+        <Label Content="Fuel Type:" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <ComboBox x:Name="fuelTypeBox" Grid.Row="5" Grid.Column="1" Margin="5" SelectionChanged="fuelTypeBox_SelectionChanged" />
+
+        <!-- Vites Tipi ComboBox -->
+        <Label Content="Gear Type:" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <ComboBox x:Name="gearTypeBox" Grid.Row="6" Grid.Column="1" Margin="5" SelectionChanged="gearTypeBox_SelectionChanged" />
+
+        <!-- Renk ComboBox -->
+        <Label Content="Color:" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <ComboBox x:Name="colorBox" Grid.Row="7" Grid.Column="1" Margin="5" SelectionChanged="colorBox_SelectionChanged" />
+
+        <!-- Oturma Kapasitesi ComboBox -->
+        <Label Content="Seating Capacity:" Grid.Row="8" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <ComboBox x:Name="seatingBox" Grid.Row="8" Grid.Column="1" Margin="5" SelectionChanged="seatingBox_SelectionChanged" />
+
+        <!-- Plaka TextBox -->
+        <Label Content="Number Plate:" Grid.Row="9" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <TextBox x:Name="numberPlateBox" TextWrapping="Wrap" Margin="5" Grid.Row="9" Grid.Column="1" TextChanged="numberPlateBox_TextChanged"/>
+
+        <!-- Araç Tipi ComboBox -->
+        <Label Content="Vehicle Type:" Grid.Row="10" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <ComboBox x:Name="vehicleTypeBox" Grid.Row="10" Grid.Column="1" Margin="5" SelectionChanged="vehicleTypeBox_SelectionChanged" />
+
+        <!-- Araç Durumu ComboBox -->
+        <Label Content="Vehicle Condition:" Grid.Row="11" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <ComboBox x:Name="vehicleConditionBox" Grid.Row="11" Grid.Column="1" Margin="5" SelectionChanged="vehicleConditionBox_SelectionChanged" />
+
+        <!-- Price TextBox -->
+        <Label Content="Price:" Grid.Row="12" Grid.Column="0" VerticalAlignment="Center" Margin="5" />
+        <TextBox x:Name="priceBox" TextWrapping="Wrap" Margin="5" Grid.Row="12" Grid.Column="1" TextChanged="priceBox_TextChanged"/>
+
+        <!-- Resim Ekle Butonu -->
+        <Button x:Name="addPictureButton" Content="Add Picture" Grid.Row="13" Grid.Column="0" Margin="5,5" Click="addPictureButton_Click" />
+
+        <!-- Resim Gösterme Alanı -->
+        <Image x:Name="uploadImage" Grid.Row="13" Margin="5,5,7,9" Stretch="Uniform" />
+
+        <!-- Durum Bilgisi Etiketi -->
+        <Label x:Name="label2" Content="Label" Grid.Row="14" Grid.Column="1" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <!-- Devam Et Butonu -->
+        <Button x:Name="button3" Content="Lets Get Started" Grid.Row="13" Grid.Column="1" Margin="10,10,0,10" Background="#FFD41520" Foreground="White" Click="button3_Click"/>
+    </Grid>
+</Window>
