@@ -1,0 +1,21 @@
+﻿<Window x:Class="_312projeıkıekran.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_312projeıkıekran"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="307" Margin="481,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="269"/>
+        <Button Content="Sign in" HorizontalAlignment="Left" Margin="526,280,0,0" VerticalAlignment="Top" Height="55" Width="179" Background="#FFBC4040" Click="CheckUsername_Click"/>
+        <TextBox x:Name="usernametextbox" HorizontalAlignment="Left" Margin="526,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179" Height="39"/>
+        <TextBox x:Name="passwordtextbox" HorizontalAlignment="Left" Margin="526,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="179" Height="40"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Margin="526,81,0,0" VerticalAlignment="Top" Height="26" Width="69"/>
+        <Label Content="Pasword" HorizontalAlignment="Left" Margin="526,166,0,0" VerticalAlignment="Top" Height="26" Width="54"/>
+        <Label Content="WELCOME TO FLAMINGO RENTAL APP" HorizontalAlignment="Left" FontSize="33"  FontWeight="DemiBold" Margin="25,5,0,0" VerticalAlignment="Top" Foreground="#FFBC4040" Height="54" Width="592"/>
+        <Image Margin="79,67,400,32" Source="/Flamingo.jpeg" Stretch="Fill"/>
+        <Label Content="User name : admin&#xD;&#xA;Pasword: admin" FontSize="16" HorizontalAlignment="Left" Margin="626,15,0,0" VerticalAlignment="Top" Height="98" Width="164"/>
+
+    </Grid>
+</Window>
